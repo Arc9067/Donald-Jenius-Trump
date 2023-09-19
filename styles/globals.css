@@ -1,0 +1,22 @@
+@import url("https://fonts.cdnfonts.com/css/space-grotesk");
+
+@font-face {
+  font-family: Gulfs Display;
+  src: url(/GulfsDisplay-Normal.woff2);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero {
+  background: url(/Bg.svg) center center repeat-y;
+}
+
+img {
+  display: inline;
+}
+
+#mics2 {
+  background-image: url(/star.svg) center center;
+}
